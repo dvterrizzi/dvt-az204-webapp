@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'dvt-az204-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAAFADD1E9E448F3BD7A428308BD8D3C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2BD8E5A92E4C4947A725B3DBEEA8BAE1 }}
           package: .
