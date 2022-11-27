@@ -1,0 +1,14 @@
+<h1>Counter</h1>
+<p>Klik op de knop om de counter te verhogen</p>
+<hr />
+<p>Counter: @count</p>
+<button @onclick="Increment" />
+
+@code {
+    int count;
+
+    void Increment()
+    {
+        count++;
+    }
+}
